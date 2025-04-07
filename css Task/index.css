@@ -1,0 +1,22 @@
+.red{
+    background-color:red;
+    color:white;
+    width:250px; 
+    height: 200px;
+}
+#head{
+    background-color: blueviolet;
+}
+
+.pink{
+    background-color: pink;
+    color: black;
+}
+.yellow{
+    background-color:orange;
+    color: white;
+}
+.blue{
+    background-color: blue;
+    color: white;
+}
