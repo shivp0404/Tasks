@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+          
+        }
+        nav{
+            position: sticky;
+            text-align: center;
+            top: 0px;
+            width: 100vw;
+            height: 5vh;  
+            background-color: blueviolet;
+            color: white;
+        }
+        section{
+            width: 100vw;
+            height: 90vh;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        section > div{
+            margin-top: 10px;
+        }
+        
+        .left{
+            width: 40%;
+            height:80%;
+            background-color: bisque;
+        }
+        .right{
+            width: 40%;
+            height: 80%;
+            background-color: brown;
+        }
+         .text{
+            width: 80%;
+            margin: auto;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            margin-top:2vw;
+            padding: 5vw;
+            border-radius: 2vw;
+         }
+
+         .circle{
+            width: 5vw;
+            height: 5vw;
+            border: 2px solid black;
+            border-radius: 50%;
+            text-align: center;
+            position: fixed;
+            top: 90%;
+            left: 93.5%;
+            background-color:burlywood;
+         }
+
+
+         footer{
+            width: 100vw;
+            height: 5vw;
+            background-color: paleturquoise;
+            border: 2px solid black;
+            text-align: center;
+            color:white;
+            margin: 5px;
+         }
+         
+
+
+    </style>
+</head>
+<body>
+   <nav>
+    This is a Navbar Area
+   </nav>
+   <section>
+    <div class="left">Left</div>
+    <div class="right">Right</div>
+   </section>
+   <div class="text">
+    <h1>Welcome to Sigma Web Development</h1>
+</div>
+<div class="circle">circle</div>
+  <footer>This is a Footer</footer>  
+</body>
+</html>
